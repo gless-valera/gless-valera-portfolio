@@ -1,3 +1,11 @@
 [build]
   publish = "files"
   command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = ""
+
+[build.processing]
+  skip_processing = true
