@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>We Help and Care | Gless Valera</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#FAF8F4;--white:#fff;--ink:#1A1A1A;--muted:#6B6B6B;--accent:#C46B3C;--accent-light:#F4E8DF;--border:#E8E3DC;--tag:#EEE8E0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 4rem;background:rgba(250,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:var(--ink);text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.cs-hero{padding:9rem 4rem 4rem;max-width:900px;margin:0 auto}
+.back-link{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;color:var(--muted);font-size:.85rem;margin-bottom:2rem;transition:color .2s}
+.back-link:hover{color:var(--accent)}
+.cs-eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:1rem}
+.cs-title{font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.15;margin-bottom:1.2rem}
+.cs-subtitle{font-size:1.1rem;color:var(--muted);line-height:1.75;max-width:680px;margin-bottom:2.5rem}
+.cs-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.meta-chip{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:.6rem 1.1rem}
+.meta-chip-label{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.meta-chip-val{font-size:.85rem;font-weight:600}
+.cs-body{max-width:900px;margin:0 auto;padding:0 4rem 6rem}
+.cs-section{margin-bottom:4rem}
+.cs-section-label{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.6rem}
+.cs-section-title{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:1rem}
+.cs-text{font-size:.97rem;color:var(--muted);line-height:1.85;margin-bottom:1rem}
+.cs-text strong{color:var(--ink)}
+.highlight-box{background:var(--accent-light);border-radius:14px;padding:1.6rem 2rem;margin:1.5rem 0}
+.highlight-box p{font-family:'DM Serif Display',serif;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.6}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.2rem}
+.insight-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1.2rem 1.4rem}
+.insight-num{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--accent);margin-bottom:.3rem}
+.insight-text{font-size:.85rem;color:var(--muted);line-height:1.6}
+.quote-pull{border-left:3px solid var(--accent);padding:.8rem 1.4rem;margin:1.5rem 0;background:var(--white)}
+.quote-pull p{font-style:italic;color:var(--ink);font-size:.95rem;line-height:1.7}
+.quote-pull cite{font-size:.78rem;color:var(--muted);font-style:normal;margin-top:.4rem;display:block}
+.cs-list{margin:1rem 0 1rem 0;display:flex;flex-direction:column;gap:.6rem}
+.cs-list li{font-size:.93rem;color:var(--muted);line-height:1.65;padding-left:1.4rem;position:relative;list-style:none}
+.cs-list li::before{content:"→";position:absolute;left:0;color:var(--accent);font-size:.78rem}
+.tag-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.tag{background:var(--tag);border-radius:100px;padding:.3rem .8rem;font-size:.75rem}
+.tag.a{background:var(--accent-light);color:var(--accent)}
+.divider{border:none;border-top:1px solid var(--border);margin:3rem 0}
+.cs-nav{display:flex;justify-content:space-between;align-items:center;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border)}
+.cs-nav a{text-decoration:none;color:var(--muted);font-size:.88rem;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+.cs-nav a:hover{color:var(--accent)}
+footer{text-align:center;padding:1.8rem 4rem;background:#111;color:rgba(255,255,255,.3);font-size:.78rem}
+@media(max-width:900px){nav{padding:1rem 1.5rem}.cs-hero,.cs-body{padding-left:1.5rem;padding-right:1.5rem}}
+@media(max-width:600px){.nav-links{display:none}}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Gless Valera</a>
+  <ul class="nav-links">
+    <li><a href="index.html#work">Work</a></li>
+    <li><a href="index.html#experience">Experience</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="cs-hero">
+  <a href="index.html" class="back-link">← Back to all work</a>
+  <p class="cs-eyebrow">UX Research · Nonprofit · Phase 0</p>
+  <h1 class="cs-title">We Help and Care</h1>
+  <p class="cs-subtitle">Validating product problems to support humanitarian efforts in Southeast Asia — building a research foundation to guide future phases of product development.</p>
+  <div class="cs-meta">
+    <div class="meta-chip"><div class="meta-chip-label">Client</div><div class="meta-chip-val">We Help and Care (WHC)</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Timeline</div><div class="meta-chip-val">Oct – Dec 2023</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">My Role</div><div class="meta-chip-val">UX Researcher</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Tools</div><div class="meta-chip-val">Figma · Notion · Zoom · Google Workspace</div></div>
+  </div>
+  <div class="tag-row">
+    <span class="tag a">Site Audit</span>
+    <span class="tag a">User Testing</span>
+    <span class="tag">Heuristic Evaluation</span>
+    <span class="tag">Research Foundation</span>
+  </div>
+</div>
+
+<div class="cs-body">
+
+  <div class="cs-section">
+    <p class="cs-section-label">Background</p>
+    <h2 class="cs-section-title">About the Client</h2>
+    <p class="cs-text">We Help and Care (WHC) is a nonprofit charity supporting humanitarian and development assistance in Southeast Asia — particularly in Myanmar, where communities face urgent and ongoing crises. This project was <strong>Phase 0</strong>, meaning the goal was to lay a strong research foundation that future teams could build upon, not to ship a final product.</p>
+    <div class="highlight-box"><p>"This is only Phase 0 of the project. We will be setting up a research foundation for future phases."</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">The Problem</p>
+    <h2 class="cs-section-title">Low engagement, low trust</h2>
+    <p class="cs-text">WHC was struggling to attract user engagement and membership. The website had numerous inconsistencies in content display and outdated material, leaving users with negative impressions and confusion about the organization's legitimacy and purpose.</p>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">Goal 1</div><div class="insight-text">Validate the problems being solved and identify the highest-priority opportunities</div></div>
+      <div class="insight-card"><div class="insight-num">Goal 2</div><div class="insight-text">Define a foundational vision, product strategy, and target audience</div></div>
+      <div class="insight-card"><div class="insight-num">Impact</div><div class="insight-text">Increase membership, secure stable donations, and raise awareness of Myanmar's humanitarian crisis</div></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Phase 1 — Site Audit</p>
+    <h2 class="cs-section-title">Identifying areas of improvement</h2>
+    <p class="cs-text">The UX Research team conducted a thorough audit of WHC's main web pages. Our findings clustered into four problematic domains:</p>
+    <ul class="cs-list">
+      <li><strong>Information:</strong> Lack of updated content and unclear expectations for membership responsibilities.</li>
+      <li><strong>Technical:</strong> Unfinished code visible to users; multiple languages displayed throughout the site.</li>
+      <li><strong>Design:</strong> Buttons and links appeared disabled; photos and text were used inconsistently across pages.</li>
+      <li><strong>Copywriting:</strong> Numerous grammatical errors with an odd tone not tailored to the audience or to the people WHC serves.</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Phase 2 — User Testing</p>
+    <h2 class="cs-section-title">Empathizing with potential donors</h2>
+    <p class="cs-text">We conducted user tests with participants who had a history of making donations. Our research questions focused on:</p>
+    <ul class="cs-list">
+      <li>What helps people decide whether to get involved in charities?</li>
+      <li>How do users interact with WHC's current site?</li>
+      <li>What is the site doing well, and what is it missing?</li>
+    </ul>
+    <p class="cs-text" style="margin-top:1.2rem">User testing revealed behavioral and emotional patterns we couldn't have predicted from the audit alone:</p>
+    <div class="quote-pull"><p>"I'm not sure if this organization is still active because the most recent project was beginning in 2022."</p></div>
+    <div class="quote-pull"><p>"Who are they helping? What families? Is this around the world? I still don't know."</p></div>
+    <div class="quote-pull"><p>"[These are] well-chosen pictures. They summarize it all very well!"</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Research Findings</p>
+    <h2 class="cs-section-title">6 key insights, 6 recommendations</h2>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">01</div><div class="insight-text">Achievement metrics leave a strong, positive impression — add them strategically.</div></div>
+      <div class="insight-card"><div class="insight-num">02</div><div class="insight-text">Photos are a powerful engagement tool — add more, curated intentionally.</div></div>
+      <div class="insight-card"><div class="insight-num">03</div><div class="insight-text">The scope of WHC's mission is unclear — make who they help unmistakably clear.</div></div>
+      <div class="insight-card"><div class="insight-num">04</div><div class="insight-text">Outdated content signals untrustworthiness — separate current from past projects.</div></div>
+      <div class="insight-card"><div class="insight-num">05</div><div class="insight-text">Multi-language display creates confusion — pick one language based on user preference.</div></div>
+      <div class="insight-card"><div class="insight-num">06</div><div class="insight-text">Social media buttons were ignored — make them visible and explain their purpose.</div></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Next Steps</p>
+    <h2 class="cs-section-title">Handing off to Phase 1</h2>
+    <p class="cs-text">The team prepared a full documentation package to enable the Phase 1 team to hit the ground running, including a final site audit report, the Phase 0 research plan, and a user testing final report. Phase 1 will expand the team to include UX Design, UX Writing, Product Strategy, and Web Development, with goals of conducting additional usability tests, building low-fidelity wireframes, and creating design and content style guides.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Reflection</p>
+    <h2 class="cs-section-title">What I learned</h2>
+    <ul class="cs-list">
+      <li><strong>Recruit the right participants.</strong> We chose people experienced in donating and using technology — so when they struggled with the site, we knew it was a real usability issue.</li>
+      <li><strong>Photos carry enormous weight.</strong> They gave the site a human touch and conveyed emotions that regular text simply couldn't.</li>
+      <li><strong>Watch faces, not just actions.</strong> Where users' eyes wandered during testing — staring while squinting — revealed confusion that verbal feedback never would have surfaced.</li>
+    </ul>
+  </div>
+
+  <div class="cs-nav">
+    <a href="index.html">← All Projects</a>
+    <a href="case-study-tmv.html">Next: The Melanin Village →</a>
+  </div>
+</div>
+
+<footer>© 2026 Julianne Gless Valera · Laguna Niguel, CA</footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>ParkMobile LIVE | Gless Valera</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#FAF8F4;--white:#fff;--ink:#1A1A1A;--muted:#6B6B6B;--accent:#C46B3C;--accent-light:#F4E8DF;--border:#E8E3DC;--tag:#EEE8E0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 4rem;background:rgba(250,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:var(--ink);text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.cs-hero{padding:9rem 4rem 4rem;max-width:900px;margin:0 auto}
+.back-link{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;color:var(--muted);font-size:.85rem;margin-bottom:2rem;transition:color .2s}
+.back-link:hover{color:var(--accent)}
+.cs-eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:1rem}
+.cs-title{font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.15;margin-bottom:1.2rem}
+.cs-subtitle{font-size:1.1rem;color:var(--muted);line-height:1.75;max-width:680px;margin-bottom:2.5rem}
+.cs-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.meta-chip{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:.6rem 1.1rem}
+.meta-chip-label{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.meta-chip-val{font-size:.85rem;font-weight:600}
+.cs-body{max-width:900px;margin:0 auto;padding:0 4rem 6rem}
+.cs-section{margin-bottom:4rem}
+.cs-section-label{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.6rem}
+.cs-section-title{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:1rem}
+.cs-text{font-size:.97rem;color:var(--muted);line-height:1.85;margin-bottom:1rem}
+.cs-text strong{color:var(--ink)}
+.highlight-box{background:var(--accent-light);border-radius:14px;padding:1.6rem 2rem;margin:1.5rem 0}
+.highlight-box p{font-family:'DM Serif Display',serif;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.6}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.2rem}
+.insight-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1.2rem 1.4rem}
+.insight-num{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--accent);margin-bottom:.3rem}
+.insight-text{font-size:.85rem;color:var(--muted);line-height:1.6}
+.quote-pull{border-left:3px solid var(--accent);padding:.8rem 1.4rem;margin:1.5rem 0;background:var(--white)}
+.quote-pull p{font-style:italic;color:var(--ink);font-size:.95rem;line-height:1.7}
+.quote-pull cite{font-size:.78rem;color:var(--muted);font-style:normal;margin-top:.4rem;display:block}
+.cs-list{margin:1rem 0 1rem 0;display:flex;flex-direction:column;gap:.6rem}
+.cs-list li{font-size:.93rem;color:var(--muted);line-height:1.65;padding-left:1.4rem;position:relative;list-style:none}
+.cs-list li::before{content:"→";position:absolute;left:0;color:var(--accent);font-size:.78rem}
+.tag-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.tag{background:var(--tag);border-radius:100px;padding:.3rem .8rem;font-size:.75rem}
+.tag.a{background:var(--accent-light);color:var(--accent)}
+.divider{border:none;border-top:1px solid var(--border);margin:3rem 0}
+.cs-nav{display:flex;justify-content:space-between;align-items:center;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border)}
+.cs-nav a{text-decoration:none;color:var(--muted);font-size:.88rem;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+.cs-nav a:hover{color:var(--accent)}
+footer{text-align:center;padding:1.8rem 4rem;background:#111;color:rgba(255,255,255,.3);font-size:.78rem}
+@media(max-width:900px){nav{padding:1rem 1.5rem}.cs-hero,.cs-body{padding-left:1.5rem;padding-right:1.5rem}}
+@media(max-width:600px){.nav-links{display:none}}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Gless Valera</a>
+  <ul class="nav-links">
+    <li><a href="index.html#work">Work</a></li>
+    <li><a href="index.html#experience">Experience</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="cs-hero">
+  <a href="index.html" class="back-link">← Back to all work</a>
+  <p class="cs-eyebrow">UX Research · UI Design · Mobile App · Feature Addition</p>
+  <h1 class="cs-title">ParkMobile LIVE</h1>
+  <p class="cs-subtitle">Integrating a real-time parking vacancy feature into the ParkMobile app — allowing drivers to see exactly which spots are open, reducing time spent circling and frustration in high-density parking areas.</p>
+  <div class="cs-meta">
+    <div class="meta-chip"><div class="meta-chip-label">Project Type</div><div class="meta-chip-val">Mobile App Feature Addition & Redesign</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Timeline</div><div class="meta-chip-val">3 weeks</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">My Role</div><div class="meta-chip-val">UX Research · User Journeys · Usability Testing · Wireframes · Prototypes</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Team</div><div class="meta-chip-val">Gless Valera · Cecilia Gutierrez · Ravina Grewal</div></div>
+  </div>
+  <div class="tag-row">
+    <span class="tag a">User Research</span><span class="tag a">Competitor Analysis</span><span class="tag">User Flow</span><span class="tag">Wireframing</span><span class="tag">Usability Testing</span>
+  </div>
+</div>
+
+<div class="cs-body">
+
+  <div class="cs-section">
+    <p class="cs-section-label">The Problem</p>
+    <h2 class="cs-section-title">Parking apps show garages. Not spots.</h2>
+    <p class="cs-text">ParkMobile allows drivers to reserve parking spots and pay ahead of time — but it only showed general availability in parking lots and garages. It couldn't show which exact spots were open. In high-density areas, this left drivers circling anyway, defeating the purpose of a parking app.</p>
+    <div class="highlight-box"><p>"How might we improve ParkMobile so that drivers can quickly find available parking spots in areas where parking is extremely limited?"</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">User Research</p>
+    <h2 class="cs-section-title">Understanding the parking struggle</h2>
+    <p class="cs-text">Our team ran Google surveys and 1:1 interviews to understand users' current thought processes and behaviors when finding parking in limited-availability situations. We had three research objectives:</p>
+    <ul class="cs-list">
+      <li>Understand where users have the most difficulty finding parking</li>
+      <li>Analyze which apps or websites users currently use to help find parking</li>
+      <li>Understand the mental process users go through when struggling to park</li>
+    </ul>
+    <p class="cs-text" style="margin-top:1rem">Our affinity map revealed that the most common pain points involved <strong>distance from the destination</strong> and <strong>time spent searching</strong>:</p>
+    <div class="quote-pull"><p>"I want to find a place that is close to my location because that's important to me for safety, and so that I don't have to walk very far."</p><cite>— Kendall, 27</cite></div>
+    <div class="quote-pull"><p>"It's annoying when you're just driving in circles."</p><cite>— Lindsay, 30</cite></div>
+    <p class="cs-text">Notably, none of our users had ever used a parking app before — they'd turned to Uber and Lyft as workarounds instead. This insight shaped how we designed the onboarding and feature discoverability for LIVE.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Competitor Analysis</p>
+    <h2 class="cs-section-title">Learning from what's already out there</h2>
+    <p class="cs-text">We evaluated several competing parking apps to identify features ParkMobile could benefit from and problems to avoid. The biggest critique of competing apps was that they weren't in sync with actual real-time availability — showing spots as open when they weren't. This became a core design principle: <strong>accuracy above all</strong>.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">User Flow</p>
+    <h2 class="cs-section-title">Designing for instant awareness</h2>
+    <p class="cs-text">With enough research to envision how a typical user would interact with the LIVE feature, we designed a user flow ensuring that if a spot became taken while a driver was en route, they'd know immediately — reducing wasted driving time to near zero.</p>
+    <p class="cs-text">Each team member then created design sketches of how the LIVE feature should look in the app. We aligned on three non-negotiables:</p>
+    <ul class="cs-list">
+      <li>A dedicated LIVE button on the app's landing page</li>
+      <li>Turn-by-turn directions to a selected spot</li>
+      <li>Real-time alerts if a targeted spot is taken before you arrive</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Wireframing & Usability Testing</p>
+    <h2 class="cs-section-title">Two iterations, five tests</h2>
+    <p class="cs-text">We built two rounds of wireframes — first rough sketches to establish layout and structure, then medium-fidelity prototypes with alert messages, parking area maps, and more detailed navigation. We tested via screen recordings from users' own devices.</p>
+    <p class="cs-text">Research question: <em>Are users able to find an available spot and reach the payment page by following the app's directions?</em></p>
+    <p class="cs-text" style="margin-top:1rem">Testing surfaced four key issues to address:</p>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">01</div><div class="insight-text">Unlabeled icons created confusion — users didn't know what functions they served</div></div>
+      <div class="insight-card"><div class="insight-num">02</div><div class="insight-text">No back navigation from the directions screen left users stranded</div></div>
+      <div class="insight-card"><div class="insight-num">03</div><div class="insight-text">Directions needed to show distances, not just route paths</div></div>
+      <div class="insight-card"><div class="insight-num">04</div><div class="insight-text">Parking spots should show free vs. paid status before a user selects them</div></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Final Design</p>
+    <h2 class="cs-section-title">A personal vision for the finished product</h2>
+    <p class="cs-text">Due to time constraints and time zone differences (I was in Greece while my teammates were in Northern California), we weren't able to complete high-fidelity prototypes as a group. But during my own hours, I designed several frames showing how I would have fully redesigned and integrated the LIVE feature.</p>
+    <p class="cs-text">I'm incredibly grateful to Cecilia and Ravina for keeping me in the loop through daily Slack stand-ups and making remote collaboration work across 9 time zones. It was a great lesson in asynchronous teamwork under pressure.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Reflection</p>
+    <h2 class="cs-section-title">What's next</h2>
+    <ul class="cs-list">
+      <li>Conduct more usability tests on the final prototype to continue iterating on design decisions</li>
+      <li>Add and improve icons to support easier navigation throughout the app</li>
+      <li>Build out additional pages for app onboarding and the full parking reservation flow</li>
+    </ul>
+  </div>
+
+  <div class="cs-nav">
+    <a href="case-study-esi.html">← Endangered Species International</a>
+    <a href="index.html">Back to all work →</a>
+  </div>
+</div>
+
+<footer>© 2026 Julianne Gless Valera · Laguna Niguel, CA</footer>
+</body>
+</html>

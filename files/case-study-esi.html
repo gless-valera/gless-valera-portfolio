@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Endangered Species International | Gless Valera</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#FAF8F4;--white:#fff;--ink:#1A1A1A;--muted:#6B6B6B;--accent:#C46B3C;--accent-light:#F4E8DF;--border:#E8E3DC;--tag:#EEE8E0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 4rem;background:rgba(250,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:var(--ink);text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.cs-hero{padding:9rem 4rem 4rem;max-width:900px;margin:0 auto}
+.back-link{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;color:var(--muted);font-size:.85rem;margin-bottom:2rem;transition:color .2s}
+.back-link:hover{color:var(--accent)}
+.cs-eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:1rem}
+.cs-title{font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.15;margin-bottom:1.2rem}
+.cs-subtitle{font-size:1.1rem;color:var(--muted);line-height:1.75;max-width:680px;margin-bottom:2.5rem}
+.cs-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.meta-chip{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:.6rem 1.1rem}
+.meta-chip-label{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.meta-chip-val{font-size:.85rem;font-weight:600}
+.cs-body{max-width:900px;margin:0 auto;padding:0 4rem 6rem}
+.cs-section{margin-bottom:4rem}
+.cs-section-label{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.6rem}
+.cs-section-title{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:1rem}
+.cs-text{font-size:.97rem;color:var(--muted);line-height:1.85;margin-bottom:1rem}
+.cs-text strong{color:var(--ink)}
+.highlight-box{background:var(--accent-light);border-radius:14px;padding:1.6rem 2rem;margin:1.5rem 0}
+.highlight-box p{font-family:'DM Serif Display',serif;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.6}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.2rem}
+.insight-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1.2rem 1.4rem}
+.insight-num{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--accent);margin-bottom:.3rem}
+.insight-text{font-size:.85rem;color:var(--muted);line-height:1.6}
+.quote-pull{border-left:3px solid var(--accent);padding:.8rem 1.4rem;margin:1.5rem 0;background:var(--white)}
+.quote-pull p{font-style:italic;color:var(--ink);font-size:.95rem;line-height:1.7}
+.quote-pull cite{font-size:.78rem;color:var(--muted);font-style:normal;margin-top:.4rem;display:block}
+.cs-list{margin:1rem 0 1rem 0;display:flex;flex-direction:column;gap:.6rem}
+.cs-list li{font-size:.93rem;color:var(--muted);line-height:1.65;padding-left:1.4rem;position:relative;list-style:none}
+.cs-list li::before{content:"→";position:absolute;left:0;color:var(--accent);font-size:.78rem}
+.tag-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.tag{background:var(--tag);border-radius:100px;padding:.3rem .8rem;font-size:.75rem}
+.tag.a{background:var(--accent-light);color:var(--accent)}
+.divider{border:none;border-top:1px solid var(--border);margin:3rem 0}
+.cs-nav{display:flex;justify-content:space-between;align-items:center;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border)}
+.cs-nav a{text-decoration:none;color:var(--muted);font-size:.88rem;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+.cs-nav a:hover{color:var(--accent)}
+footer{text-align:center;padding:1.8rem 4rem;background:#111;color:rgba(255,255,255,.3);font-size:.78rem}
+@media(max-width:900px){nav{padding:1rem 1.5rem}.cs-hero,.cs-body{padding-left:1.5rem;padding-right:1.5rem}}
+@media(max-width:600px){.nav-links{display:none}}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Gless Valera</a>
+  <ul class="nav-links">
+    <li><a href="index.html#work">Work</a></li>
+    <li><a href="index.html#experience">Experience</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="cs-hero">
+  <a href="index.html" class="back-link">← Back to all work</a>
+  <p class="cs-eyebrow">UX Research · UI Design · Website Redesign</p>
+  <h1 class="cs-title">Endangered Species International</h1>
+  <p class="cs-subtitle">Redesigning a nonprofit's website to educate audiences on wildlife conservation and inspire communities to take action — from research and heuristic analysis through wireframing, usability testing, and a final high-fidelity prototype.</p>
+  <div class="cs-meta">
+    <div class="meta-chip"><div class="meta-chip-label">Client</div><div class="meta-chip-val">Endangered Species International</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Timeline</div><div class="meta-chip-val">4 weeks</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">My Role</div><div class="meta-chip-val">UX Research · UI Design · Usability Testing</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Team</div><div class="meta-chip-val">Gless Valera · Natalie Stephens · Scott Yasuda</div></div>
+  </div>
+  <div class="tag-row">
+    <span class="tag a">User Research</span><span class="tag a">Heuristic Analysis</span><span class="tag">Wireframing</span><span class="tag">Usability Testing</span><span class="tag">IA Redesign</span>
+  </div>
+</div>
+
+<div class="cs-body">
+
+  <div class="cs-section">
+    <p class="cs-section-label">The Problem</p>
+    <h2 class="cs-section-title">A site that undermined its own mission</h2>
+    <p class="cs-text">Endangered Species International's website required serious redesign. Common problems included heavy misuse of white space, unorganized content, and a lack of visual appeal — all of which made it harder for the organization to fulfill its core mission of inspiring people to protect wildlife.</p>
+    <div class="highlight-box"><p>"How might we redesign our nonprofit's website to make it so that people are inspired to take action and are well-informed on wildlife conservation projects?"</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">User Research</p>
+    <h2 class="cs-section-title">Learning from real users</h2>
+    <p class="cs-text">Our team combined a Maze usability testing project (5 responses) with 3 in-person interviews to understand users' experiences navigating the site. We had three research objectives:</p>
+    <ul class="cs-list">
+      <li>Can users actually understand the organization's goals and intentions?</li>
+      <li>What pain points and frustrations did users encounter while navigating?</li>
+      <li>Is donating to the organization an easy process?</li>
+    </ul>
+    <p class="cs-text" style="margin-top:1rem">After building an affinity map from interview data, four common pain points emerged:</p>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">01</div><div class="insight-text">The site wasn't visually pleasing — users felt it looked untrustworthy</div></div>
+      <div class="insight-card"><div class="insight-num">02</div><div class="insight-text">Users felt suspicious of where their donations were going based on the site's content</div></div>
+      <div class="insight-card"><div class="insight-num">03</div><div class="insight-text">The desktop layout was noticeably off — heavy misuse of white space</div></div>
+      <div class="insight-card"><div class="insight-num">04</div><div class="insight-text">Navigation was difficult — users had to "scavenger hunt" for basic pages</div></div>
+    </div>
+    <div class="quote-pull" style="margin-top:1.5rem"><p>"The website was not that easy to navigate because I did not even notice the top menu bar right away since it was so small and hard to see."</p><cite>— Interviewee #1</cite></div>
+    <div class="quote-pull"><p>"Mostly just walls of text which can be boring to read."</p><cite>— Interviewee #2</cite></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Heuristic Analysis</p>
+    <h2 class="cs-section-title">Usability issues in detail</h2>
+    <p class="cs-text">Beyond user feedback, we identified specific heuristic violations:</p>
+    <ul class="cs-list">
+      <li><strong>No visible "Donate" button:</strong> The donation function was buried under a "Support Us" tab rather than prominently displayed on the homepage.</li>
+      <li><strong>Distracting sidebar:</strong> Off-topic content with inconsistent formatting cluttered the experience.</li>
+      <li><strong>Inappropriate white space:</strong> Random gaps prevented pages from filling users' screens properly.</li>
+      <li><strong>Outdated material:</strong> Content from over 2 years ago was prominently displayed, making the organization appear inactive.</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">User Journey & IA</p>
+    <h2 class="cs-section-title">Building a better navigation system</h2>
+    <p class="cs-text">Using our research data, we imagined a primary user: a college student who's become interested in conservation activism and wants to learn more. This persona informed a new sitemap that streamlined the navigation bar — removing redundant pages and grouping related content together:</p>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">About Us</div><div class="insight-text">Consolidated organization background, values, and team info into one clear section</div></div>
+      <div class="insight-card"><div class="insight-num">Latest</div><div class="insight-text">Fresh, current projects surfaced first — older content moved to supporting pages</div></div>
+      <div class="insight-card"><div class="insight-num">Get Involved</div><div class="insight-text">Donation, volunteer, and community options grouped in one action-oriented hub</div></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Wireframing & Usability Testing</p>
+    <h2 class="cs-section-title">Iterating toward clarity</h2>
+    <p class="cs-text">The team created two rounds of wireframes — starting with low-fidelity sketches focused on key decisions (bigger donate button, simplified nav, multiple donation options), then building up to medium-fidelity prototypes tested through Maze with 5 participants.</p>
+    <p class="cs-text">Users were asked to complete three tasks: donate 00, find the organization's values, and find contact information. Heat map results confirmed that the new Donate button was large and visible enough to find easily, and that users could locate values and contact info without confusion.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Final Design</p>
+    <h2 class="cs-section-title">A wildlife-inspired design system</h2>
+    <p class="cs-text">To reflect the "wildlife and nature" mission, the team used accents of brown for buttons and footers. Overly wordy buttons were replaced with icon shortcuts. The final prototype incorporated more icons, navigation breadcrumbs, proper white space usage, and a prominently placed Donate button — all validated through usability testing.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Reflection</p>
+    <h2 class="cs-section-title">Final thoughts</h2>
+    <p class="cs-text">This project reinforced that allocating tasks clearly and discussing progress at stand-ups keeps design teams aligned and productive. Designing components before wireframing also allowed for much faster iteration. I'm proud of what the team delivered — and have a clear picture of what I'd improve with more time.</p>
+    <p class="cs-text"><strong>What's next:</strong> More usability testing on the final prototype, implementing a feature showing local conservation projects and fundraisers via location sharing.</p>
+  </div>
+
+  <div class="cs-nav">
+    <a href="case-study-tmv.html">← The Melanin Village</a>
+    <a href="case-study-parkmobile.html">Next: ParkMobile LIVE →</a>
+  </div>
+</div>
+
+<footer>© 2026 Julianne Gless Valera · Laguna Niguel, CA</footer>
+</body>
+</html>

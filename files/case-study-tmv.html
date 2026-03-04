@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>The Melanin Village | Gless Valera</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#FAF8F4;--white:#fff;--ink:#1A1A1A;--muted:#6B6B6B;--accent:#C46B3C;--accent-light:#F4E8DF;--border:#E8E3DC;--tag:#EEE8E0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 4rem;background:rgba(250,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:var(--ink);text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{text-decoration:none;color:var(--muted);font-size:.88rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.cs-hero{padding:9rem 4rem 4rem;max-width:900px;margin:0 auto}
+.back-link{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;color:var(--muted);font-size:.85rem;margin-bottom:2rem;transition:color .2s}
+.back-link:hover{color:var(--accent)}
+.cs-eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:1rem}
+.cs-title{font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.15;margin-bottom:1.2rem}
+.cs-subtitle{font-size:1.1rem;color:var(--muted);line-height:1.75;max-width:680px;margin-bottom:2.5rem}
+.cs-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.meta-chip{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:.6rem 1.1rem}
+.meta-chip-label{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.meta-chip-val{font-size:.85rem;font-weight:600}
+.cs-body{max-width:900px;margin:0 auto;padding:0 4rem 6rem}
+.cs-section{margin-bottom:4rem}
+.cs-section-label{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.6rem}
+.cs-section-title{font-family:'DM Serif Display',serif;font-size:1.6rem;margin-bottom:1rem}
+.cs-text{font-size:.97rem;color:var(--muted);line-height:1.85;margin-bottom:1rem}
+.cs-text strong{color:var(--ink)}
+.highlight-box{background:var(--accent-light);border-radius:14px;padding:1.6rem 2rem;margin:1.5rem 0}
+.highlight-box p{font-family:'DM Serif Display',serif;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.6}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.2rem}
+.insight-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:1.2rem 1.4rem}
+.insight-num{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--accent);margin-bottom:.3rem}
+.insight-text{font-size:.85rem;color:var(--muted);line-height:1.6}
+.quote-pull{border-left:3px solid var(--accent);padding:.8rem 1.4rem;margin:1.5rem 0;background:var(--white)}
+.quote-pull p{font-style:italic;color:var(--ink);font-size:.95rem;line-height:1.7}
+.quote-pull cite{font-size:.78rem;color:var(--muted);font-style:normal;margin-top:.4rem;display:block}
+.cs-list{margin:1rem 0 1rem 0;display:flex;flex-direction:column;gap:.6rem}
+.cs-list li{font-size:.93rem;color:var(--muted);line-height:1.65;padding-left:1.4rem;position:relative;list-style:none}
+.cs-list li::before{content:"→";position:absolute;left:0;color:var(--accent);font-size:.78rem}
+.tag-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem}
+.tag{background:var(--tag);border-radius:100px;padding:.3rem .8rem;font-size:.75rem}
+.tag.a{background:var(--accent-light);color:var(--accent)}
+.divider{border:none;border-top:1px solid var(--border);margin:3rem 0}
+.cs-nav{display:flex;justify-content:space-between;align-items:center;margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border)}
+.cs-nav a{text-decoration:none;color:var(--muted);font-size:.88rem;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+.cs-nav a:hover{color:var(--accent)}
+footer{text-align:center;padding:1.8rem 4rem;background:#111;color:rgba(255,255,255,.3);font-size:.78rem}
+@media(max-width:900px){nav{padding:1rem 1.5rem}.cs-hero,.cs-body{padding-left:1.5rem;padding-right:1.5rem}}
+@media(max-width:600px){.nav-links{display:none}}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">Gless Valera</a>
+  <ul class="nav-links">
+    <li><a href="index.html#work">Work</a></li>
+    <li><a href="index.html#experience">Experience</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="cs-hero">
+  <a href="index.html" class="back-link">← Back to all work</a>
+  <p class="cs-eyebrow">UX Writing · Content Design · Nonprofit · Phase 1</p>
+  <h1 class="cs-title">The Melanin Village</h1>
+  <p class="cs-subtitle">Optimizing content to empower Black and Brown families to take homeschool initiatives — improving content accessibility by 25% through brand voice development and a comprehensive content style guide.</p>
+  <div class="cs-meta">
+    <div class="meta-chip"><div class="meta-chip-label">Client</div><div class="meta-chip-val">The Melanin Village</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Timeline</div><div class="meta-chip-val">Sept – Dec 2023</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">My Role</div><div class="meta-chip-val">UX Writer / Content Designer</div></div>
+    <div class="meta-chip"><div class="meta-chip-label">Tools</div><div class="meta-chip-val">Figma · Notion · Slack · Google Workspace</div></div>
+  </div>
+  <div class="tag-row">
+    <span class="tag a">Content Audit</span>
+    <span class="tag a">Brand Voice</span>
+    <span class="tag">Style Guide</span>
+    <span class="tag">Accessibility</span>
+    <span class="tag">Brand Archetypes</span>
+  </div>
+</div>
+
+<div class="cs-body">
+
+  <div class="cs-section">
+    <p class="cs-section-label">Background</p>
+    <h2 class="cs-section-title">About the Client</h2>
+    <p class="cs-text">The Melanin Village (TMV) is a social-impact organization that provides educational resources, professional development, and a supportive community to encourage Black and Brown families to homeschool. Their community members, called <strong>Sisters</strong>, needed a platform that felt as warm, empowering, and culturally resonant as the mission behind it.</p>
+    <p class="cs-text">This was Phase 1 of the project — a prior team had completed Phase 0. My team's focus was establishing a consistent, accessible brand voice across the platform.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">The Problem</p>
+    <h2 class="cs-section-title">Too many platforms, too little consistency</h2>
+    <p class="cs-text">TMV's organization was spread across too many platforms, making it confusing for Sisters to connect with their community and manage homeschooling curricula. The content across the site lacked a coherent voice and contained accessibility gaps that undermined trust and usability.</p>
+    <div class="highlight-box"><p>"Establish a brand voice and create guidelines for inclusive, empowering content to build trust and a sense of community within the organization."</p></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Phase 1 — Content Audit</p>
+    <h2 class="cs-section-title">Finding what was broken</h2>
+    <p class="cs-text">The UX Writing team collaborated with UX Design to evaluate the site. Our audit surfaced four main accessibility issues:</p>
+    <ul class="cs-list">
+      <li><strong>Inconsistent font sizes</strong> and lacking visual hierarchy throughout</li>
+      <li><strong>Inconsistent brand voice and typography</strong> across web pages</li>
+      <li><strong>Low text-to-background contrast</strong> reducing readability</li>
+      <li><strong>Many broken and unresponsive links</strong> that left users stranded</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Phase 2 — Brand Voice</p>
+    <h2 class="cs-section-title">Defining TMV's personality</h2>
+    <p class="cs-text">Working directly with the client, our team used brand archetypes to define the "personality" TMV should project. We settled on three archetypes: <strong>Sage, Hero, and Everyman</strong> — wanting users to see TMV as both an authoritative figure in homeschooling and a warm, approachable friend and mentor.</p>
+    <p class="cs-text" style="margin-top:.8rem">This translated into 8 core brand characteristics:</p>
+    <div class="tag-row" style="margin-top:.8rem">
+      <span class="tag a">Warm</span><span class="tag a">Guide</span><span class="tag a">Approachable</span><span class="tag a">Mentor</span>
+      <span class="tag">Friendly</span><span class="tag">Authority</span><span class="tag">Informative</span><span class="tag">Professional</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Phase 3 — Content Style Guide</p>
+    <h2 class="cs-section-title">Creating lasting guidelines</h2>
+    <p class="cs-text">With a brand voice established, the team created a comprehensive content style guide covering four segments:</p>
+    <div class="insight-grid">
+      <div class="insight-card"><div class="insight-num">Voice & Tone</div><div class="insight-text">Emotions and impressions we want users to experience on the platform</div></div>
+      <div class="insight-card"><div class="insight-num">Usage</div><div class="insight-text">The "dos and don'ts" of all content — grammar, point of view, and brand consistency</div></div>
+      <div class="insight-card"><div class="insight-num">Accessibility</div><div class="insight-text">Guidelines for links, images, and additional text to ensure readability for all users</div></div>
+      <div class="insight-card"><div class="insight-num">Glossary</div><div class="insight-text">A database of key terms used by TMV and its community members (Sisters)</div></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="cs-section">
+    <p class="cs-section-label">Reflection</p>
+    <h2 class="cs-section-title">What I learned</h2>
+    <ul class="cs-list">
+      <li><strong>Shifting to a UX writing mindset.</strong> Coming from a research and design background, I had to learn new terminology and best practices. I read widely about brand archetypes and style guide construction — and it paid off.</li>
+      <li><strong>Time management is non-negotiable.</strong> With client demos every two weeks, the team had to make fast, informed decisions without sacrificing quality.</li>
+      <li><strong>Clients change requirements.</strong> We originally planned for responsive web pages, but the client shifted focus to a mobile application mid-project — a good lesson in staying adaptable.</li>
+      <li><strong>Teamwork really makes the dream work.</strong> Equal contribution and cross-team feedback allowed us to deliver integrated design improvements and a seamless user journey.</li>
+    </ul>
+  </div>
+
+  <div class="cs-nav">
+    <a href="case-study-whc.html">← We Help and Care</a>
+    <a href="case-study-esi.html">Next: Endangered Species International →</a>
+  </div>
+</div>
+
+<footer>© 2026 Julianne Gless Valera · Laguna Niguel, CA</footer>
+</body>
+</html>
